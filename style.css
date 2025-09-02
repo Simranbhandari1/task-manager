@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+}
+.todo-app{
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 3px solid rgba(255, 255, 255 ,0.18);
+    backdrop-filter: blur(10px);
+
+}
+
+.todo-app{
+    font-size: 2rem;
+}
+
+.input-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.input-area input{
+    flex: 1;
+    padding: 10px 17px;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    outline: none;
+    border-radius: 22px;
+    background: rgba(255, 194, 209, 0.3);
+    color: #dbdbdb;
+
+}
+.input-area input::placeholder {
+    color: #bcbcbc;
+}
+
+.input-area button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    padding-left: 8px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.1rem;
+    background: rgba(255, 194, 209, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+}
+.input-area button:hover{
+    transform: scale(1.1);
+    background: #ff6f91;
+}
+
+.todos-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#task-list{
+    width: 100%;
+}
+
