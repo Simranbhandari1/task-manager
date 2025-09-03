@@ -251,12 +251,3 @@ body {
   background: transparent; 
 }
 
-/* .empty{
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    display: block; /* always reserve space */
-}
-
-.empty.visible {
-    opacity: 1;
-} */
